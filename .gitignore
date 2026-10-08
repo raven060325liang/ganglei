@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+android-sdk
+
+# Build outputs
+dist
+android/app/build
+android/build
+android/.gradle
+android/*/build
+.gradle
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea
+.vscode
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Capacitor sync artifacts (will be regenerated)
+android/app/src/main/assets/public/*
+!android/app/src/main/assets/public/.gitkeep
